@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="Q2juW1nOZ-DR9ySOKCA0">
+    <mxGraphModel dx="1866" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D1nLEEoNOzaX-mep18nE-176" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Online Distillation&#xa;Training Layer" vertex="1">
+          <mxGeometry height="186" width="677" x="2612" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-177" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Task-Adaptive&#xa;Counterfactual Mixer Layer" vertex="1">
+          <mxGeometry height="489" width="803" x="1760" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-178" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Linear Causal&#xa;Transformer Agent Layer" vertex="1">
+          <mxGeometry height="388" width="745" x="965" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-179" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Dynamic Causal Graph&#xa;Perception Layer" vertex="1">
+          <mxGeometry height="410" width="600" x="315" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-180" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Environment &amp; Task Context" vertex="1">
+          <mxGeometry height="548" width="245" x="20" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-181" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Entity Features (X)" vertex="1">
+          <mxGeometry height="54" width="195" x="45" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-182" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Task ID (T)" vertex="1">
+          <mxGeometry height="54" width="135" x="75" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-183" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Global State (S)" vertex="1">
+          <mxGeometry height="54" width="173" x="56" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-184" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Self-Supervised Graph Gen" vertex="1">
+          <mxGeometry height="54" width="251" x="340" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-185" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Contrastive Encoder" vertex="1">
+          <mxGeometry height="54" width="204" x="363" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-186" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Adjacency Matrix (A)" vertex="1">
+          <mxGeometry height="54" width="216" x="657" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-187" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Universal Embeddings (E)" vertex="1">
+          <mxGeometry height="54" width="249" x="641" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-188" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="L_graph" vertex="1">
+          <mxGeometry height="39" width="110" x="710" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-189" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="L_contra" vertex="1">
+          <mxGeometry height="39" width="117" x="707" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-190" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Linear Causal Attention" vertex="1">
+          <mxGeometry height="54" width="235" x="1213" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-191" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Causal Mask (M)" vertex="1">
+          <mxGeometry height="54" width="173" x="990" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-192" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="O(N) Complexity" vertex="1">
+          <mxGeometry height="134" width="134" x="1525" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-193" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Individual Q (Qa)" vertex="1">
+          <mxGeometry height="54" width="186" x="1499" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-194" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Task Embedding" vertex="1">
+          <mxGeometry height="54" width="174" x="1822" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-195" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Counterfactual Correction" vertex="1">
+          <mxGeometry height="54" width="248" x="1785" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-196" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Monotonic Mixer (IGM)" vertex="1">
+          <mxGeometry height="54" width="220" x="2103" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-197" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Joint Q (Qtot)" vertex="1">
+          <mxGeometry height="54" width="164" x="2373" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-198" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Student Model" vertex="1">
+          <mxGeometry height="54" width="163" x="2637" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-199" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Teacher Model" vertex="1">
+          <mxGeometry height="54" width="163" x="2902" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-200" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" value="L_distill (KL)" vertex="1">
+          <mxGeometry height="39" width="150" x="3115" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-201" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-184" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0.01;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-186" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-202" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-185" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=0.01;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-187" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-203" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-184" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.83;exitY=1.01;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-188" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-204" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-185" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.91;exitY=1.01;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-189" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="464" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-205" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-190" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" target="D1nLEEoNOzaX-mep18nE-193" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-206" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-196" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" target="D1nLEEoNOzaX-mep18nE-197" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-207" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-181" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0;entryY=0.51;rounded=0;" target="D1nLEEoNOzaX-mep18nE-184" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-208" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-181" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0;entryY=0.51;rounded=0;" target="D1nLEEoNOzaX-mep18nE-185" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-209" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-186" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-191" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-210" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-191" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.33;entryY=-0.01;rounded=0;" target="D1nLEEoNOzaX-mep18nE-190" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1188" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-211" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-187" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.33;entryY=0.99;rounded=0;" target="D1nLEEoNOzaX-mep18nE-190" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1188" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-212" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-182" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-194" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-213" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-193" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" target="D1nLEEoNOzaX-mep18nE-195" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-214" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-195" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.43;entryY=-0.01;rounded=0;" target="D1nLEEoNOzaX-mep18nE-196" value="ωa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2068" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-215" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-183" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.36;entryY=0.99;rounded=0;" target="D1nLEEoNOzaX-mep18nE-196" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2068" y="657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-216" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-194" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.85;rounded=0;" target="D1nLEEoNOzaX-mep18nE-196" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2068" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-217" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-197" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" target="D1nLEEoNOzaX-mep18nE-198" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-218" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-198" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=-0.01;entryX=0;entryY=0.49;rounded=0;" target="D1nLEEoNOzaX-mep18nE-199" value="Update">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2851" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-219" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-198" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" target="D1nLEEoNOzaX-mep18nE-200" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1nLEEoNOzaX-mep18nE-220" edge="1" parent="1" source="D1nLEEoNOzaX-mep18nE-199" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.29;entryY=0;rounded=0;" target="D1nLEEoNOzaX-mep18nE-200" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3090" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
